@@ -34,8 +34,8 @@
 
 .titulo_videotutoriales {
     padding-top: 35px !important;
-    padding-bottom: 20px !important;
-    
+    /* padding-bottom: 20px !important; */
+
 }
 
 .titulo_videotutoriales h2 {
@@ -50,51 +50,63 @@
     color: #fff;
     font-family: Montserrat-ExtraLight;
     font-size: 25px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
+
+
+
 
 .container-fluid {
     margin-left: 150px !important;
     margin-right: 150px !important;
 }
 
+
+
 .videotutoriales {
-    /* background-color: #2cb833; */
+    /* background-color: #d9534f; */
+    flex-direction: row;
     color: #2C59B8;
     display: flex;
     justify-content: space-between;
     align-items: end !important;
-    padding-top: 10px !important;
-    /* align-items: end !important; */
-    margin-bottom: 45px !important;
-    /* align-items-end */
-
-
+    /* padding-top: 10px !important; */
+    padding-bottom: 15px !important;
 }
+
+
 
 .derecha {
     width: 100% !important;
     /* background-color: #0844cf; */
     padding-left: 80px !important;
     padding-right: 80px !important;
-   
+
 }
 
+.item .row {
+    /* background-color: #2D366F; */
+    padding: 25px !important;
+
+}
 
 .tarjeta {
     background-color: #fff;
     border-radius: 15px !important;
     font-family: Montserrat-ExtraBold;
     margin-top: 15px !important;
+
+    /* z-index: 9999; */
     /* margin: 18px !important; */
-    margin:19px !important;
+    /* margin: 19px !important; */
 }
 
 .tarjeta:hover {
     cursor: pointer;
     transition: all .50s ease-in-out;
     transform: scale(1.15);
-    z-index: 1;
+    z-index: 2;
+    /* z-index: 9999; */
 }
 
 .tarjeta img {
@@ -154,30 +166,26 @@
     color: #164A9A;
     line-height: 1.3em;
     font-size: 16px;
-  }
+}
 
 .tarjeta .ver_mas ul li a {
     color: #164A9A;
     font-size: 16px;
     font-family: Montserrat-Medium;
     /* justify-content: left; */
-    
+
 }
 
 
-
-
-
-
-
-
-
-
+.derecha .row {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
 
 
 /* pARTE IZQUIERDA DE LOS VIDEOTUTORLAES  */
 .izquierda {
-    width: 100% !important;
+    width: 70% !important;
     /* background-color: #3a2cb8; */
     display: flex !important;
     align-items: end !important;
@@ -189,7 +197,6 @@
     width: 100% !important;
     justify-content: center !important;
     padding-bottom: 25px !important;
-
 }
 
 .redes_sociales p {
@@ -215,78 +222,381 @@
 }
 
 
-
 .imagen {
     width: 100%;
+    /* background-color: #2D366F; */
+    display: flex !important;
+    justify-content: left !important;
+}
+
+
+.imagen img {
+    width: 60%;
     /* background-color: #2D366F; */
 }
 
 
+@media (max-width: 992px) {
+    .titulo_videotutoriales h2 {
+        
+        font-size: 45px;
+    }
+    .titulo_videotutoriales p {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+    .titulo_videotutoriales h2 {
+        
+        font-size: 40px;
+    }
+    .titulo_videotutoriales p {
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (max-width: 680px) {
+    .titulo_videotutoriales h2 {
+        
+        font-size: 35px;
+    }
+    .titulo_videotutoriales p {
+        font-size: 15px;
+    }
+    
+}
 
 
 
 
 
+@media (max-width: 1500px) {
+    .derecha {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+
+    }
+
+    .redes_sociales p {
+
+        font-size: 35px !important;
+
+    }
+
+    .imagen {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .derecha {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+
+    }
+
+
+}
+
+@media (max-width: 1260px) {
+    .derecha {
+        padding-left: 10px !important;
+        padding-right: 20px !important;
+
+    }
+
+    .item .row {
+        padding: 6px 25px 18px 25px !important;
+
+    }
+
+    .izquierda {
+        padding-left: 10px !important;
+    }
+
+    .imagen img {
+
+        margin-left: 25px !important;
+    }
+
+}
+
+@media (max-width: 1205px) {
+
+    .redes_sociales p {
+        font-size: 25px !important;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .redes_sociales p {
+        font-size: 20px !important;
+    }
 
 
 
+}
+
+
+@media (max-width: 1050px) {
+    .videotutoriales {
+        flex-direction: column;
+    }
+
+    .derecha {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        width: 100% !important;
+
+    }
+
+    .item .row {
+        padding: 10px 28px 22px 28px !important;
+    }
+
+    .izquierda {
+        padding-left: 0px !important;
+    }
+
+    .videotutoriales {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .redes_sociales p {
+        font-size: 40px !important;
+    }
+
+    .imagen {
+
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .imagen img {
+
+        margin-left: 0px !important;
+    }
+
+}
 
 
 
+@media (max-width: 1000px) {
+
+    .container-fluid {
+        margin-left: 110px !important;
+        margin-right: 110px !important;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+
+    .container-fluid {
+        margin-left: 80px !important;
+        margin-right: 80px !important;
+    }
+
+
+}
+
+
+@media (max-width: 780px) {
+
+    .container-fluid {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .redes_sociales p {
+        font-size: 35px !important;
+    }
+
+}
 
 
 
+@media (max-width: 767px) {
+
+    .item .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redes_sociales p {
+        font-size: 30px !important;
+    }
+
+}
 
 
 
+@media (max-width: 600px) {
+
+    .container-fluid {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .item .row {
+        padding: 5px 20px 18px 20px !important;
+    }
+
+    .redes_sociales p {
+        font-size: 25px !important;
+    }
+
+}
+
+@media (max-width: 545px) {
+    .item .row, .izquierda {
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjeta{
+        margin-bottom: 8px !important;
+    }
+
+    .container-fluid {
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
+    .item .row {
+        padding: 6px 25px 22px 25px !important;
+    }
+
+    .izquierda {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .redes_sociales {
+        padding-top: 15px !important;
+    }
+}
 
 
 
+@media (max-width: 399px) {
+    .container-fluid {
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .tarjeta{
+        margin-bottom: 0px !important;
+    }
+    .tarjeta p {
+        font-size: 18px !important;
+    }
+    .ver_mas .escuelas {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .tarjeta .ver_mas ul li,
+    .tarjeta .ver_mas ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 325px) {
+    .container-fluid {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .tarjeta p {
+        font-size: 14px !important;
+        padding: 5px 0px !important;
+    }
+    .ver_mas .escuelas {
+        padding-top: 5px !important;
+        padding-bottom: 0px !important;
+        /* background-color: #2d6f43; */
+    }
+    .tarjeta .ver_mas ul li,
+    .tarjeta .ver_mas ul li a {
+/* background-color: #2d6f43; */
+        font-size: 12px;
+
+    }
+
+    .tarjeta:hover .ver_mas {
+        transform: translate(0px, -30px);
+        -webkit-transform: translate(0px, -30px);
+        -moz-transform: translate(0px, -30px);
+        -o-transform: translate(0px, -30px);
+        -ms-transform: translate(0px, -30px);
+        /* width: 100% !important; */
+        opacity: 1;
+    }
+}
 
 
 
+/* CARUSEL */
+/* ------------------------------------------------ */
 
+body {
+    padding-top: 100px;
+}
 
-
-body { padding-top: 100px; }
 /*#####################
 Additional Styles (required)
 ######################*/
-.myCarousel{
+.myCarousel {
     background-color: #d9534f;
     padding: 25px !important;
 }
+
 #myCarousel .thumbnail {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .carousel-control.left, .carousel-control.right {
-	background-image:none !important;
+    background-image: none !important;
 }
+
 .carousel-control {
 
-	top:40%;
-	color:#EAEEF4;
-	bottom:auto;
-	padding-top:4px;
-	width:30px;
-	height:30px;
-	text-shadow:none;
-	opacity:0.6;
+    top: 40%;
+    color: #EAEEF4;
+    bottom: auto;
+    padding-top: 4px;
+    width: 30px;
+    height: 30px;
+    text-shadow: none;
+    opacity: 0.6;
 }
 
 .carousel-control:hover {
-	color: #fff;
+    color: #fff;
 }
+
 .carousel-control.left, .carousel-control.right {
-	background-image:none !important;
+    background-image: none !important;
 }
+
 .carousel-control.right {
-	left:auto;
-	right:-32px;
+    left: auto;
+    right: -32px;
 }
+
 .carousel-control.left {
-	right:auto;
-	left:-32px;
+    right: auto;
+    left: -32px;
 }
 
 .fa-2x:hover {
