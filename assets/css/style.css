@@ -1151,12 +1151,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .footer-menu ul.footer-menu-item li a:hover{color: #f43032;}
 .hm-footer-copyright {
     padding: 40px 0;
-<<<<<<< HEAD
-    /*border-top: 1px solid #e1e5eb;*/
-=======
-    /* border-top: 1px solid #e1e5eb; */
->>>>>>> 5ce2eb199d313443a0f3e725800d7b0a3076cd51
 }
+
 .hm-footer-copyright p,.hm-footer-copyright p a {
     color: #ffffff;
     font-size: 14px;
