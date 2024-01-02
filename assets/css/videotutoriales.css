@@ -90,6 +90,22 @@
 
 }
 
+
+.fannycard{
+color: #EAEEF4;
+display: flex !important;
+justify-content: center !important;
+flex-direction: row !important;
+}
+
+
+
+
+
+
+
+
+
 .tarjeta {
     background-color: #fff;
     border-radius: 15px !important;

@@ -280,13 +280,13 @@ html,body{height: 100%;}
 }
 
 .informacion > .logo > img {
-    width: 29%;
+    width: 200px;
     margin-right: 500px;
 }
 
 .informacion > .texto {
     width: 100%;
-    height: 25%;
+    height: 200px;
 }
 
 .informacion > .texto > h3 {
@@ -299,7 +299,7 @@ html,body{height: 100%;}
 }
 
 .informacion > .texto > p {
-    width: 80%;
+    width: 100%;
     text-align: left;
     color: #2D366F;
     font-family: Montserrat-Bold;
@@ -310,7 +310,7 @@ html,body{height: 100%;}
 
 .informacion > .avisos1 {
     width: 100%;
-    height: 25%;
+    height: 15%;
     display: flex;
 }
 
@@ -394,7 +394,7 @@ html,body{height: 100%;}
 
 .informacion > .avisos2 {
     width: 100%;
-    height: 25%;
+    height: 15%;
 }
 
 .informacion > .avisos2 > .aviso2_1 {
@@ -602,6 +602,100 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     width:  14px;
     height:  auto;
     margin-left:  12px;
+}
+
+/*
+    nosotros
+*/
+
+.nosotros {
+    background-color: #f1f2f2;
+    box-shadow: 1px 5px 5px #979797;
+}
+
+.nosotros-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%; 
+    background: none;
+    box-shadow: none;
+    flex-direction: row;    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.nosotros-content > .left {
+    width: 50%;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nosotros-content > .right {
+    width: 50%;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.nosotros-content > .left > .tab-nosotros {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    list-style: none;
+    border-radius: 0px 12px 12px 0px;
+    position: relative;
+    width: 80%;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.nosotros-content > .left > .tab-nosotros > .option {
+    display: block;
+    cursor: pointer;
+    background: #17569B;
+    padding: 15px 12%;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Montserrat-Medium;
+    position: relative;
+}
+
+.option-active{
+    display: block;
+    cursor: pointer;
+    background-color: #FCAF17!important;
+    padding: 15px 12%;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Montserrat-Medium;
+    position: relative; 
+}
+
+.nosotros-content > .left > .tab-nosotros > .option:hover {
+    background-color: #FCAF17!important;
+    color: #fff;
+}
+
+.nosotros-content > .right > .nosotros-box {
+
+    padding: 20px;
+    height: 100%;
+}
+
+.nosotros-content > .right > .nosotros-box > .inside {
+    border-style: groove;
+    border-color: #17569B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 /*-------------------------------------
@@ -1070,6 +1164,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-right: 10px;
     display: block;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .soporte-content2 {
@@ -1337,7 +1434,288 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:#007EBE;
 }
 
-@media screen and (max-width: 1034px){
+
+
+
+@media (max-width: 1650px) {
+    .informacion > .texto {
+        /*margin-top:120px !important;*/
+
+    }
+}  
+
+@media (max-width: 1500px) {
+    .informacion > .texto {
+        /* width: 100%; */
+        /*margin-top:100px !important;*/
+        /* height: 25%; */
+    }
+}  
+
+@media (max-width: 1420px) {
+    .informacion > .avisos1 {
+        padding: 10px 0px;
+        margin-top: 20px;
+    }
+}  
+
+@media (max-width: 1340px) {
+    .informacion > .texto {
+        /*margin-top:90px !important;*/
+    }
+}  
+
+@media screen and (max-width: 1200px) {
+    .informacion {
+        height: auto;
+    }
+
+    .informacion > .texto > h3 {
+        text-align: center;
+    }
+
+    .informacion > .logo > img {
+        width: 50%;
+    }
+
+    .informacion > .texto {
+        width: 100%;
+        height: 40%;
+    }
+
+    .aulas > .row {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .aulas-content1 > ul > li {
+        width: 100% !important;
+    }
+
+    .aulas-content1 > ul > li > a{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    .capacitaciones-content2 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .capacitaciones-content2 > ul > li {
+        display: flex;
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    .aviso1_1, .aviso1_2, .aviso2_1 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 1170px) {
+    .informacion > .texto {
+        /*margin-top:70px !important;*/
+    }
+}  
+
+@media screen and (max-width: 1000px) {
+    .informacion {
+        margin-left: 20px;
+        width: 60%;
+        left: 0%;
+    }
+    
+    .informacion > .logo {
+        width: 80%;
+        height: 25%;
+    }
+    
+    .informacion > .texto {
+        margin-top: 20px;
+    }
+    
+    .informacion > .texto > h3 {
+        font-size: 25px;
+        text-align: left;
+    }
+    
+    .informacion > .texto > p {
+        font-size: 14px;
+    }
+    
+    .avisos2 {
+        margin-top: 10px;
+    }
+    
+    .informacion > .avisos2 > .aviso2_1 {
+        margin-left: 0%;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .imagen2 {
+        display: none !important;
+    }
+
+    .informacion > .avisos1 {
+        padding: 10px 0px;
+        margin-top: 60px;
+    }
+}  
+
+@media screen and (max-width: 815px) {
+    .container-soporte {
+        margin-top: 30px;
+        height: 100%;
+        background: none;
+        box-shadow: none;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .container-soporte > .left {
+        width: 100%;
+    }
+
+    .container-soporte > .right {
+        width: 100%;
+    }
+
+    .botones {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        height: 100%;
+        /*display: flex;
+        flex-wrap: wrap;
+        align-content: center*/;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .imagen1 {
+        display: none !important;
+    }
+
+    .second {
+        display: none !important;
+    }
+
+    .home > .first {
+        width: 100%;
+        height: 100%;
+    }
+
+	.welcome-hero {
+		height: 699px !important;
+	}
+	
+	.informacion {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		width: 100% !important;
+	}
+	
+	.informacion > .logo {
+		width: 100% !important;
+	}
+
+	.informacion > .logo > img {
+		width: 265px !important;
+        margin-right: 0px !important; 
+	}
+	
+	.informacion > .texto {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	
+	.informacion > .texto > h3 {
+		text-align: center !important;
+	}
+
+	.informacion > .texto > p {
+		width: 100%;
+	}
+
+	.avisos2 {
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+
+	.aviso2_1 {
+		margin-right: 0%;
+	}
+
+
+}
+
+/*impo*/
+@media screen and (max-width: 750px) {
+	.welcome-hero {
+		height: 699px !important;
+	}
+	
+	.informacion {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		width: 100% !important;
+	}
+	
+	.informacion > .logo {
+		width: 100% !important;
+	}
+
+	.informacion > .logo > img {
+		width: 265px !important;
+	}
+	
+	.informacion > .texto {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	
+	.informacion > .texto > h3 {
+		text-align: center !important;
+	}
+
+	.informacion > .texto > p {
+		width: 100%;
+	}
+
+	.avisos2 {
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+
+	.aviso2_1 {
+		margin-right: 0%;
+	}
+
+    .avisos1 {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    .wraper {
+        width: 330px;
+    }
 
     .welcome-hero {
         height: 586px;
@@ -1364,16 +1742,208 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     .avisos1, .avisos2{
         display: none !important;
     }
-}
-
-@media screen and (max-width: 1034px){
-
+    
     h2 {
         font-size: 35px !important;
     }
 
     p {
         font-size: 15px !important;
+    }
+
+    .aulas, .soporte, .capacitaciones, .seccion_videotutoriales, .footer {
+        width: 100%;
+        /* width: 330px; */
+    }
+
+    .informacion {
+        width: 80%;
+        height: 100%;
+        right: 0px;
+        left: 0px;
+        padding-left: 10px;
+        border-right-width: 10px;
+        padding-right: 10px;
+        top: 0%;
+    }
+
+    .logo, .texto{
+        height: 50% !important;
+    }
+
+    .avisos1, .avisos2 {
+        height: 0% !important;
+    }
+
+    .informacion > .texto > p {
+        width: 100% !important;
+    }
+
+    .informacion > .logo > img {
+        margin-top: 150px;
+        width: 240px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .informacion > .texto {
+        margin-top: 20px !important;
+    }
+
+
+    .informacion > .texto > h3 {
+        text-align: center;
+        color: #2D366F;
+        font-family: Montserrat-ExtraBold;
+        font-size: 20px;
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .informacion > .texto > p {
+        width: 80%;
+        text-align: center;
+        color: #2D366F;
+        font-family: Montserrat-Bold;
+        font-size: 12px;
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /****aulas******/
+
+    .aulas > .row {
+        width: 100% !important;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .aulas-content1 > ul > li {
+        width: 100% !important;
+    }
+
+    .aulas-content1 > ul > li > a{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    /*****soporte tecnico****/
+
+    .container-soporte > .left {
+        display: none !important;
+    }
+
+    .container-soporte > .right {
+        width: 100% !important;
+    }
+
+    .soporte-content2 {
+        width: 100% !important;
+    }
+
+    .soporte-content2 > ul > li > a {
+        width: 100%;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .boton_padre {
+        width: 260px;
+    }
+
+    .hijo1 {
+        width: 24%;
+    }
+
+    .hijo2 {
+        width: 82%;
+    }
+
+    /****capacitaciones****/
+
+    .capacitaciones-content2 {
+        margin-top: 0px;
+    }
+
+    .capacitaciones-content2 > ul > li {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    .capacitaciones-content2 > ul > li > a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .caja-texto {
+        margin-bottom: 20px;
+    }
+
+    .caja-texto > .left > h2 {
+        text-align: center;
+    }
+
+    .caja-texto > .left > .button {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .caja-texto .right {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .informacion > .logo > img {
+        margin-top: 150px;
+        width: 240px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    
+    .wraper {
+        width: 330px;
+    }
+
+    .welcome-hero {
+        height: 586px;
+        /* width: 330px; */
+        width: 100%;
+    }
+
+    .first {
+        width: 100% !important;
+        border-left: none !important;
+        background: linear-gradient(to left, #f3f4ff, #eff2ff) !important;
+	}
+
+	.second{
+        display: inline-block;
+        width: 100% !important;
+        border-right: none !important;
+        background: linear-gradient(to left, #f3f4ff, #eff2ff) !important;
+	}
+
+    .imagen1, .imagen2{
+        display: none !important;
+	}
+    .avisos1, .avisos2{
+        display: none !important;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+
+    p {
+        font-size: 12px !important;
     }
 
     .aulas, .soporte, .capacitaciones, .seccion_videotutoriales, .footer {
@@ -1405,8 +1975,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     }
 
     .informacion > .logo > img {
-        margin-top: 50%;
-        width: 50%;
+        margin-top: 150px;
+        width: 240px;
         margin-right: 0px;
     }
 
@@ -1515,3 +2085,5 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         display: none !important;
     }
 }
+
+
