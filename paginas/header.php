@@ -19,7 +19,7 @@
                                 </a>
                             </li>    
                             <li class="scroll-to-section">
-                                <a href="nosotros" class="<?php echo $respuesta == 'nosotros' ? 'active' : ''; ?>">
+                                <a href="#nosotros" class="<?php echo $respuesta == 'nosotros' ? 'active' : ''; ?>">
                                     <i class="bi bi-person mx-1"></i>NOSOTROS
                                 </a>
                             </li>    
