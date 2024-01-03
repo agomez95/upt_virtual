@@ -1977,7 +1977,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 
 @media screen and (max-width: 650px) {
-    
     .wraper {
         width: 330px;
     }
@@ -2145,6 +2144,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
     .caja-texto {
         margin-bottom: 20px;
+    }
+
+    .caja-texto > .left {
+        width: 100% !important;
     }
 
     .caja-texto > .left > h2 {
