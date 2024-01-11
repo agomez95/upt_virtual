@@ -60,8 +60,8 @@
 }
 
 .header-area .main-nav .nav li {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .header-area .main-nav .nav li:last-child {

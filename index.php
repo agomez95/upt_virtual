@@ -31,11 +31,7 @@
 
 <body>
     <?php
-
-
-
     include("./paginas/header.php");
-
     include("./todo.php");
     include("./paginas/videotutoriales.php");
     include("./paginas/footer.php");
