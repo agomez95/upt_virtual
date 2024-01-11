@@ -14,7 +14,7 @@
                     <nav class="main-nav">    
                         <ul class="nav">    
                             <li class="scroll-to-section ">
-                                <a href="todo#home" class="<?php echo $respuesta == 'inicio' ? 'active' : ''; ?>">
+                                <a href="inicio#home" class="<?php echo $respuesta == 'inicio' ? 'active' : ''; ?>">
                                     <i class="bi bi-house mx-1 "></i>INICO
                                 </a>
                             </li>    
@@ -24,22 +24,22 @@
                                 </a>
                             </li>    
                             <li class="scroll-to-section">
-                                <a href="todo#aulas" id="myP" onclick="myFunction()">
+                                <a href="inicio#aulas" id="myP" onclick="myFunction()">
                                     <i class="bi bi-mortarboard mx-1"></i>AULAS VIRTUALES
                                 </a>
                             </li>    
                             <li class="scroll-to-section">
-                                <a href="todo#soporte" id="myP" onclick="myFunction()">
+                                <a href="inicio#soporte" id="myP" onclick="myFunction()">
                                     <i class="bi bi-gear mx-1"></i>SOPORTE
                                 </a>
                             </li>   
                             <li class="scroll-to-section">
-                                <a href="todo#capacitaciones" class="<?php echo $respuesta == 'capacitaciones' ? 'active' : ''; ?>">
+                                <a href="inicio#capacitaciones" class="<?php echo $respuesta == 'capacitaciones' ? 'active' : ''; ?>">
                                     <i class="bi bi-person-vcard mx-1"></i>CAPACITACIONES
                                 </a>
                             </li>
                             <li class="scroll-to-section">
-                                <a href="todo#blog" class="<?php echo $respuesta == 'tutoriales_Postgrado' ? 'active' : ''; ?>">
+                                <a href="inicio#blog" class="<?php echo $respuesta == 'tutoriales_Postgrado' ? 'active' : ''; ?>">
                                     <i class="bi bi-person-video mx-1"></i>TUTORIALES
                                 </a>
                             </li>

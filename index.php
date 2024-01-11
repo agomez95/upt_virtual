@@ -31,9 +31,23 @@
 
 <body>
     <?php
+    $pagina = isset($_GET['p']);
+    if ($pagina) {
+        $respuesta = $_GET['p'];
+    } else {
+        $respuesta = 'inicio';
+    }
+    $pagina = 'paginas/' . $respuesta . '.php';
+
     include("./paginas/header.php");
-    include("./todo.php");
-    include("./paginas/videotutoriales.php");
+
+    if (is_file($pagina)) {
+        require $pagina;
+    } else {
+        $pagina = 'paginas/inicio.php';
+        require $pagina;
+    }
+    
     include("./paginas/footer.php");
     ?>
 
