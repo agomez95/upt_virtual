@@ -1,5 +1,4 @@
 <section id="blog" class="seccion_videotutoriales">
-
         <div class="container titulo_videotutoriales">
             <h2 class=""><b>Accede a los videos tutoriales</b> </h2>
             <p class="">Subídos a Youtube y personalizados acorde a cada Aula Virtual</p>

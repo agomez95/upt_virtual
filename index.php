@@ -40,6 +40,7 @@
     $pagina = 'paginas/' . $respuesta . '.php';
 
     include("./paginas/header.php");
+    include("./paginas/home.php");
 
     if (is_file($pagina)) {
         require $pagina;
@@ -47,7 +48,7 @@
         $pagina = 'paginas/inicio.php';
         require $pagina;
     }
-    
+
     include("./paginas/footer.php");
     ?>
 
