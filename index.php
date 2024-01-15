@@ -23,6 +23,7 @@
 
     <link href="./assets/images/ICONOS/Favicon postgrado 1.webp" rel="icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
 
         <!-- For favicon png -->
         <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
@@ -38,7 +39,7 @@
     <link rel="stylesheet" href="assets/css/slick-theme.css">
 
     <!--bootstrap.min.css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
 
     <!-- bootsnav -->
     <link rel="stylesheet" href="assets/css/bootsnav.css">
