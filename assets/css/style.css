@@ -988,12 +988,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 
 .aula-izquierda {
-    padding-left: 50px;
+    text-align: right;
     width: 30%;
 }
 
 .aula-derecha {
-    text-align: center;
+    padding-left: 20px;
+    text-align: left;
     width: 70%;
 }
 
