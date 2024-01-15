@@ -410,10 +410,6 @@ html,body{height: 100%;}
     margin-bottom: 8px !important;
 }
 
-.fa {
-    padding-right: 7px !important;
-}
-
 nav.navbar.bootsnav{
     background-color: transparent !important;
     border-bottom: transparent;
@@ -1096,6 +1092,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     box-shadow: 0 5px 10px rgba(71, 71, 71, .4);
 }
 
+.single-aulas-content1:hover > .aula-izquierda > .ico-moodle1:before{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(150deg) brightness(105%) contrast(101%);
+}
+
 .single-capacitaciones-content2:hover h4 {
     color: #fff !important;
     font-weight: 1000;
@@ -1386,7 +1386,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     -o-transition:0.3s linear;
     transition:0.3s linear;
 }
-.footer-menu ul.footer-menu-item li a:hover{color: #f43032;}
+.footer-menu ul.footer-menu-item li a:hover{color: #3060AC;}
 .hm-footer-copyright {
     padding: 40px 0;
 }
@@ -1422,8 +1422,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     border-radius: 50%;
 }
 .footer-social span {margin-right:15px;margin-left: 0;color: #a5adb3;}
-.footer-social span:hover{color: #ff545a;}
-.footer-social a:hover {background:#ff545a;color: #fff;}
+.footer-social span:hover{color: #2D366F;}
+.footer-social a:hover {background:#2D366F;color: #fff;}
 
 /*===============================
     Scroll Top
@@ -1440,8 +1440,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#ff545a;
-	border:1px solid #ff545a;
+    background:#2D366F;
+	border:1px solid #fff;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -1451,8 +1451,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 	z-index: 2;
 }
 #scroll-Top  .return-to-top:hover {
-    background:#f43032;
-	border:1px solid #ff545a;
+    background:#3060AC;
+	border:1px solid #fff;
 }
 
 #scroll-Top  .return-to-top i{
@@ -1480,8 +1480,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .ico-moodle1:before{
     content: '';
-    background: url('../images/icon/icon_moodle.webp');
+    background: url('../images/icon/icon_moodle3.png');
     color:blue;
+    /*opcion1*/
+    filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(87%) contrast(98%);
+    /*opcion2*/
+    /* filter: invert(16%) sepia(14%) saturate(6842%) hue-rotate(214deg) brightness(96%) contrast(87%); */
     background-size: cover;
     position: absolute;
     width: 30px;
